@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: ultra-light-vnc
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    envVars:
+      - key: VNC_PASSWORD
+        value: "123456"
+      - key: PORT
+        value: "8080"
