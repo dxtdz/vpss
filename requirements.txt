@@ -1,0 +1,2 @@
+# Minimal requirements for Render
+# No dependencies needed for basic server
